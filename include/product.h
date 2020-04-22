@@ -22,11 +22,8 @@ public:
         type_ = param.type;
     }
 
-    virtual void ShoesSetUp() {}
     virtual ~Shoes() {}
-    virtual void Show() {
-        cout<<"Base Class"<<endl;
-    };
+    virtual void Show() = 0;
 
 protected:
     ShoesParameter param_;
