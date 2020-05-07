@@ -8,7 +8,8 @@
 #include <iostream>
 #include <map>
 #include <vector>
-#include <boost/shared_ptr.hpp>
+// #include <boost/shared_ptr.hpp>
+#include <memory> //  用C++11代替boost的智能指针
 #include "product.h"
 
 using namespace std;
